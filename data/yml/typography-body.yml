@@ -1,75 +1,73 @@
-name: Illustrated Message
-SpectrumSiteSlug: 'https://spectrum.adobe.com/page/informational-illustrations/'
+name: Typography Body
+id: body-m
+description: >-
+  Body is a typography component primarily used within Spectrum components and
+  for blocks of text.
+SpectrumSiteSlug: 'https://spectrum.adobe.com/page/body/'
 examples:
-  - id: illustratedmessage-default
+  - id: body-m
+    name: Body
+    status: Verified
+    description: Default body text sizes.
+    markup: |
+      <div class="spectrum">
+        <p class="spectrum-Body spectrum-Body--XXXL">BodyXXXL Text <em>BodyXXXL Emphasis</em> <strong>BodyXXXL Strong</strong>.</p>
+        <p class="spectrum-Body spectrum-Body--XXL">BodyXXL Text <em>BodyXXL Emphasis</em> <strong>BodyXXL Strong</strong>.</p>
+        <p class="spectrum-Body spectrum-Body--XL">BodyXL Text <em>BodyXL Emphasis</em> <strong>BodyXL Strong</strong>.</p>
+        <p class="spectrum-Body spectrum-Body--L">BodyL text <em>BodyL Emphasis</em> <strong>BodyL Strong</strong>.</p>
+        <p class="spectrum-Body spectrum-Body--M">BodyM Text <em>BodyM Emphasis</em> <strong>BodyM Strong</strong>.</p>
+        <p class="spectrum-Body spectrum-Body--S">BodyS Text <em>BodyS Emphasis</em> <strong>BodyS Strong</strong>.</p>
+        <p class="spectrum-Body spectrum-Body--XS">BodyXS Text <em>BodyXS Emphasis</em> <strong>BodyXS Strong</strong>.</p>
+      </div>
+      <br/>
+      <div class="spectrum">
+        <p class="spectrum-Body spectrum-Body--XXXL spectrum-Body--serif">BodyXXXL Text Serif <em>BodyXXXL Emphasis Serif</em> <strong>BodyXXXL Strong Serif</strong>.</p>
+        <p class="spectrum-Body spectrum-Body--XXL spectrum-Body--serif">BodyXXL Text Serif <em>BodyXXL Emphasis Serif</em> <strong>BodyXXL Strong Serif</strong>.</p>
+        <p class="spectrum-Body spectrum-Body--XXL spectrum-Body--serif">BodyXL Text Serif <em>BodyXL Emphasis Serif</em> <strong>BodyXL Strong Serif</strong>.</p>
+        <p class="spectrum-Body spectrum-Body--L spectrum-Body--serif">BodyL text Serif <em>BodyL Emphasis Serif</em> <strong>BodyL Strong Serif</strong>.</p>
+        <p class="spectrum-Body spectrum-Body--M spectrum-Body--serif">BodyM Text Serif <em>BodyM Emphasis Serif</em> <strong>BodyM Strong Serif</strong>.</p>
+        <p class="spectrum-Body spectrum-Body--S spectrum-Body--serif">BodyS Text Serif <em>BodyS Emphasis Serif</em> <strong>BodyS Strong Serif</strong>.</p>
+        <p class="spectrum-Body spectrum-Body--XS spectrum-Body--serif">BodyXS Text Serif <em>BodyXS Emphasis Serif</em> <strong>BodyXS Strong Serif</strong>.</p>
+      </div>
+  - id: heading-m
     name: Standard
-    description: Used for status and errors.
+    status: Verified
+    description: Typography elements paired to display clear content hierarchies.
     markup: |
-      <div class="spectrum-IllustratedMessage">
-        <svg class="spectrum-IllustratedMessage-illustration" xmlns="http://www.w3.org/2000/svg" width="200" height="98" viewBox="0 0 199 97.7"><defs><style>.cls-1,.cls-2{fill:none;stroke-linecap:round;stroke-linejoin:round;}.cls-1{stroke-width:3px;}.cls-2{stroke-width:2px;}</style></defs><title>Asset 1</title><g id="Layer_2" data-name="Layer 2"><g id="illustrations"><path class="cls-1" d="M110.53,85.66,100.26,95.89a1.09,1.09,0,0,1-1.52,0L88.47,85.66"/><line class="cls-1" x1="99.5" y1="95.5" x2="99.5" y2="58.5"/><path class="cls-1" d="M105.5,73.5h19a2,2,0,0,0,2-2v-43"/><path class="cls-1" d="M126.5,22.5h-19a2,2,0,0,1-2-2V1.5h-31a2,2,0,0,0-2,2v68a2,2,0,0,0,2,2h19"/><line class="cls-1" x1="105.5" y1="1.5" x2="126.5" y2="22.5"/><path class="cls-2" d="M47.93,50.49a5,5,0,1,0-4.83-5A4.93,4.93,0,0,0,47.93,50.49Z"/><path class="cls-2" d="M36.6,65.93,42.05,60A2.06,2.06,0,0,1,45,60l12.68,13.2"/><path class="cls-2" d="M3.14,73.23,22.42,53.76a1.65,1.65,0,0,1,2.38,0l19.05,19.7"/><path class="cls-1" d="M139.5,36.5H196A1.49,1.49,0,0,1,197.5,38V72A1.49,1.49,0,0,1,196,73.5H141A1.49,1.49,0,0,1,139.5,72V32A1.49,1.49,0,0,1,141,30.5H154a2.43,2.43,0,0,1,1.67.66l6,5.66"/><rect class="cls-1" x="1.5" y="34.5" width="58" height="39" rx="2" ry="2"/></g></g></svg>
-        <h2 class="spectrum-Heading--pageTitle spectrum-IllustratedMessage-heading">Error 404: Page Not Found</h2>
-        <p class="spectrum-Body--secondary spectrum-IllustratedMessage-description">This page isn't available. Try checking the URL or visit a different page.</p>
+      <div class="spectrum-Typography">
+        <h1 class="spectrum-Heading spectrum-Heading--XXXL">Aliquet Mauris Eu</h1>
+        <p class="spectrum-Body spectrum-Body--XXXL">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.</p>
+        <p class="spectrum-Body spectrum-Body--XXXL">Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h1 class="spectrum-Heading spectrum-Heading--XXL">Aliquet Mauris Eu</h1>
+        <p class="spectrum-Body spectrum-Body--XXL">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.</p>
+        <p class="spectrum-Body spectrum-Body--XXL">Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <h1 class="spectrum-Heading spectrum-Heading--XL">Aliquet Mauris Eu</h1>
+        <p class="spectrum-Body spectrum-Body--XL">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.</p>
+        <p class="spectrum-Body spectrum-Body--XL">Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <h2 class="spectrum-Heading spectrum-Heading--L">Aliquet Mauris Eu</h1>
+        <p class="spectrum-Body spectrum-Body--L">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.</p>
+        <p class="spectrum-Body spectrum-Body--L">Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <h3 class="spectrum-Heading spectrum-Heading--M">Lorem Ipsum Dolor</h3>
+        <p class="spectrum-Body spectrum-Body--M">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.</p>
+        <p class="spectrum-Body spectrum-Body--M">Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <h4 class="spectrum-Heading spectrum-Heading--S">Lorem Ipsum Dolor</h4>
+        <p class="spectrum-Body spectrum-Body--S">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.</p>
+        <p class="spectrum-Body spectrum-Body--S">Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <h5 class="spectrum-Heading spectrum-Heading--XS">Lorem Ipsum Dolor</h5>
+        <p class="spectrum-Body spectrum-Body--XS">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.</p>
+        <p class="spectrum-Body spectrum-Body--XS">Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <h6 class="spectrum-Heading spectrum-Heading--XXS">Lorem Ipsum Dolor</h6>
+        <p class="spectrum-Body spectrum-Body--XS">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend est mollis ligula lobortis, tempus ultricies sapien lacinia. Nulla ut turpis velit. Sed finibus dapibus diam et sollicitudin. Phasellus in ipsum nec ante elementum congue eget in leo. Morbi eleifend justo non rutrum venenatis. Fusce cursus et lectus eu facilisis. Ut laoreet felis in magna dignissim feugiat.</p>
+        <p class="spectrum-Body spectrum-Body--XS">Ut et lectus finibus, aliquet mauris eu, tincidunt mi. Donec scelerisque orci sit amet venenatis luctus. Morbi eget lacus est. Duis iaculis magna quis aliquam lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
-  - id: illustratedmessage-default
-    name: CTA
-    description: Used for instruction/call to action.
-    markup: |
-      <div class="spectrum-IllustratedMessage spectrum-IllustratedMessage--cta">
-        <svg class="spectrum-IllustratedMessage-illustration" width="199" height="98" viewBox="0 0 199 97.7"><defs><style>.cls-1,.cls-2{fill:none;stroke-linecap:round;stroke-linejoin:round;}.cls-1{stroke-width:3px;}.cls-2{stroke-width:2px;}</style></defs><path class="cls-1" d="M110.53,85.66,100.26,95.89a1.09,1.09,0,0,1-1.52,0L88.47,85.66"/><line class="cls-1" x1="99.5" y1="95.5" x2="99.5" y2="58.5"/><path class="cls-1" d="M105.5,73.5h19a2,2,0,0,0,2-2v-43"/><path class="cls-1" d="M126.5,22.5h-19a2,2,0,0,1-2-2V1.5h-31a2,2,0,0,0-2,2v68a2,2,0,0,0,2,2h19"/><line class="cls-1" x1="105.5" y1="1.5" x2="126.5" y2="22.5"/><path class="cls-2" d="M47.93,50.49a5,5,0,1,0-4.83-5A4.93,4.93,0,0,0,47.93,50.49Z"/><path class="cls-2" d="M36.6,65.93,42.05,60A2.06,2.06,0,0,1,45,60l12.68,13.2"/><path class="cls-2" d="M3.14,73.23,22.42,53.76a1.65,1.65,0,0,1,2.38,0l19.05,19.7"/><path class="cls-1" d="M139.5,36.5H196A1.49,1.49,0,0,1,197.5,38V72A1.49,1.49,0,0,1,196,73.5H141A1.49,1.49,0,0,1,139.5,72V32A1.49,1.49,0,0,1,141,30.5H154a2.43,2.43,0,0,1,1.67.66l6,5.66"/><rect class="cls-1" x="1.5" y="34.5" width="58" height="39" rx="2" ry="2"/></svg>
-        <h2 class="spectrum-Heading--pageTitle spectrum-IllustratedMessage-heading">Drag and Drop Your File</h2>
-        <p class="spectrum-Body--secondary spectrum-IllustratedMessage-description"><a href="#" class="spectrum-Link">Select a File</a> from your computer<br> or <a href="#" class="spectrum-Link">Search Adobe Stock</a></p>
-      </div>
-packageSlug: illustratedmessage
-indexCSS: |
-  .spectrum-IllustratedMessage {
-    height: 100%;
-
-    display: -ms-flexbox;
-
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    -ms-flex-align: center;
-        align-items: center;
-    -ms-flex-pack: center;
-        justify-content: center;
-
-    text-align: center;
-  }
-
-  .spectrum-IllustratedMessage-illustration {
-    margin-bottom: 24px;
-  }
-
-  .spectrum-IllustratedMessage-heading {
-    max-width: 500px;
-    margin: 0;
-  }
-
-  .spectrum-IllustratedMessage-description {
-    max-width: 500px;
-    margin: 4px 0 0 0;
-
-    font-style: italic;
-  }
-
-  .spectrum-IllustratedMessage--cta .spectrum-IllustratedMessage-description {
-      font-style: normal;
-    }
-
-  .spectrum-IllustratedMessage-illustration {
-    color: var(--spectrum-global-color-gray-500);
-    fill: currentColor;
-    stroke: currentColor;
-  }
-devDependencies:
-  '@spectrum-css/component-builder': ^1.0.0
-  '@spectrum-css/typography': ^2.0.0
-  '@spectrum-css/vars': ^2.0.0
-  gulp: ^4.0.0
-packageVersion: 2.0.0
-packageName: '@spectrum-css/illustratedmessage'
-peerCSS: >
+packageSlug: typography
+indexCSS: >
   .spectrum {
     font-family: 'adobe-clean-ux', 'adobe-clean', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     font-size: var(--spectrum-alias-font-size-default, var(--spectrum-global-dimension-font-size-100));
@@ -3562,3 +3560,10 @@ peerCSS: >
   .spectrum-Heading--subtitle3 {
     color: var(--spectrum-heading-subtitle3-text-color, var(--spectrum-global-color-gray-700));
   }
+devDependencies:
+  '@spectrum-css/component-builder': ^1.0.0
+  '@spectrum-css/vars': ^2.0.0
+  gulp: ^4.0.0
+packageVersion: 2.0.0
+packageName: '@spectrum-css/typography'
+peerCSS: ''
