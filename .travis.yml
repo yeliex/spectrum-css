@@ -15,7 +15,7 @@ deploy:
   provider: pages
   github_token: $GITHUB_TOKEN
   local_dir: spectrum-css
-  target_branch: test-pages
+  target_branch: gh-pages
   skip_cleaup: true
   on:
     branch: nextjs
