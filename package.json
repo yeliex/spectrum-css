@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/adobe/spectrum-css#readme",
   "dependencies": {
-    "@adobe/spectrum-css": "^2.14.0",
-    "@adobe/spectrum-css-workflow-icons": "1.0.0",
+    "@adobe/spectrum-css": "latest",
+    "@adobe/spectrum-css-workflow-icons": "latest",
     "classnames": "^2.2.6",
     "js-yaml-loader": "^1.2.2",
     "loadicons": "^1.0.0",

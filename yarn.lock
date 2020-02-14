@@ -2,15 +2,15 @@
 # yarn lockfile v1
 
 
-"@adobe/spectrum-css-workflow-icons@1.0.0":
+"@adobe/spectrum-css-workflow-icons@latest":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@adobe/spectrum-css-workflow-icons/-/spectrum-css-workflow-icons-1.0.0.tgz#913f3a251ef5ea3154929a7a23d4fbd6de1553da"
   integrity sha512-aJbk7XhsUNefoufMpneq2aIT3VuD++KUY0C08VKbt5p/WOW0aDX8WYavUxW4oiK5cAgsvapcaPaS+eWpBMwXLg==
 
-"@adobe/spectrum-css@^2.14.0":
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/@adobe/spectrum-css/-/spectrum-css-2.14.0.tgz#df92ec2ed795e23e317b57a4f6548c0174bd2d64"
-  integrity sha512-iOX9GVF/0JFDqdl8kdM2UllYDwc++WXuketAYt2UO0zUtirMQGO8dhnUJ7fyPL2/LD0A3WqzA8Dfil1Grdn5dQ==
+"@adobe/spectrum-css@latest":
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/@adobe/spectrum-css/-/spectrum-css-2.17.0.tgz#7fc650796a078e044609be5a2e380e0aa2d4d7fc"
+  integrity sha512-9OiMwVQy/uHHy480eNkzMCTOB9tpXu65RQgU9zOF6G8yHnqV5MVzJ5YqHVEPDzmP5EP31xEDq2+6laPAinj3tA==
 
 "@ampproject/toolbox-core@^1.0.1", "@ampproject/toolbox-core@^1.1.1":
   version "1.1.1"
